@@ -1,0 +1,6 @@
+//执行代码
+var execute = function( code ){
+	document.getElementsByTagName('webview')[2].executeScript({
+		code:code
+	});
+}
