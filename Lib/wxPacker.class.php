@@ -2,8 +2,9 @@
 /* *
  * 微信小程序打包器
  *
- * @Ver 1.0
- * @Date 18.02.25 00:25
+ * @Ver 1.0.101
+ * @Date 18.02.26 14:28
+ * @TODO 支持压缩包文件
  */
 
 interface wxPackerInterface
@@ -79,6 +80,8 @@ class wxPacker
 	}
 
 	private function make( $_head, $files ){
+		// TODO 检测目录有效性
+		// TODO 检测是否符合小程序文件规范
 		define( "HEAD_HEAD", "BE" );
 		define( "HEAD_TYPE", "1" );
 		define( "HEAD_END", "ED" );

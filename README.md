@@ -1,10 +1,11 @@
 # wxPacker
 
+
 ![][php]  ![][1] ![][2] 
 
-微信小程序打包器，用于自动化构建应用与提交 
+微信小程序打包器`Ver:1.0.101` ，用于自动化构建应用与提交 
 
-Last Update: `2018.02.25 00:25`
+Last Update: `2018-02-26 14:28 `
 
 ## 目录结构 
 ```
@@ -30,6 +31,14 @@ echo $wP->getPackNoGzip();
 $wP->savePack( $Output );
 $wP->savePackNoGzip( $Output );
 ```
+
+## 更新记录
+### 1802261428 v1.0.101
+MD5: 2c1f76948f1ad95f73063786128ff27c  
+增加3处TODO  
+
+### 1802250025 v1.0.100
+v1.0发布
 
 [1]:https://img.shields.io/travis/rust-lang/rust.svg
 [php]:https://img.shields.io/packagist/php-v/symfony/symfony.svg?style=flat-square
