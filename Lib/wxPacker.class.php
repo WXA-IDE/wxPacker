@@ -6,6 +6,7 @@
  * @Ver 1.1.0
  * @Date 18.02.27 19:16
  * @TODO 支持压缩包文件
+ * @TODO 删除转码后的es5文件
  */
 
 interface wxPackerInterface
