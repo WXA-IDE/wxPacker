@@ -1,7 +1,7 @@
 <?php
-include "lib/wxPacker.class.php";
+include "lib/wxPacker.class.php";	//1.0.200
 
-$Input = "wxapp_source";
+$Input = "Input/wxapp_source";
 $Output = "Output/wxapp_source.wx";
 
 $wP = new wxPacker( $Input );
